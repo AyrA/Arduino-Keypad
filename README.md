@@ -75,7 +75,7 @@ The first and last pin are not connected
 | 8      | D8      |
 | 9      | NC      |
 
-Note: This pin layout means the display can be connected straight to the arduino via breadboard.
+Note: This pin layout means the keypad can be connected straight to the arduino via breadboard.
 If you directly use wires, you need to flip one end.
 
 ## Software
@@ -87,7 +87,7 @@ the code can just be transferred to the nano and it will start working.
 
 In the loop function where `ask_pin` is called,
 you can change the arguments to allow an empty pin,
-and to mask it using asterisks on the LCD.
+and to mask it using asterisks on the LCD instead of showing the digits.
 By default, both options are disabled.
 
 ### Reading The Pin
